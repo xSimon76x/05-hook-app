@@ -4,10 +4,16 @@ export const Message = () => {
 
     useEffect(() => {
         
-        console.log("Message mounted");
+        const  onMauseMove = ({ x, y }) => {
+            const cord = {x, y};
+
+            console.log(cord);
+        }
+
+        window.addEventListener('mousemove', onMauseMove);
     
         return () => {
-            console.log("Message unmounted");
+            window.removeEventListener('mousemove', onMauseMove);
         }
     }, []);
     
