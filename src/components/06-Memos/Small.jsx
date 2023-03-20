@@ -1,5 +1,7 @@
 import { memo } from "react"
 
+// Aveces es mejor importar React, y de ahi usar el memo
+// para memorizar el componente -> React.memo()
 export const Small = memo(({value}) => {
 
     console.log("Me volvi a dibujar :(");
