@@ -5,7 +5,7 @@ export const NavBarBs = () => {
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">useContext</a>
              
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <NavLink 
                             className={ ({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
