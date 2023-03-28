@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { HomePage } from '../components/09-useContext'
-import { UserContext } from "../components/09-useContext/context/UserContext";
+import { HomePage } from '../../components/09-useContext'
+import { UserContext } from "../../components/09-useContext/context/UserContext";
 
 describe('Pruebas en <HomePage />', () => {
 

@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { TodoApp } from "../components/08-useReducer/TodoApp";
-import { useTodo } from "../hooks/useTodo";
+import { TodoApp } from "../../components/08-useReducer/TodoApp";
+import { useTodo } from "../../hooks/useTodo";
 
 jest.mock('../hooks/useTodo');
 
